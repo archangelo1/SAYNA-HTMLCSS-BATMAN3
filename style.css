@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+#div-primaire
+{
+    height: 100vh;
+    background-image: url("Illustrations/Bathome1.png");
+    background-size: cover;
+    background-repeat:no-repeat ;
+    background-position: center;
+}
+
+h1
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: medium;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.bouton
+{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;    
+}
+
+body
+{
+  margin: 0;
+  padding: 0;  
+  font-family: 'Roboto', sans-serif;
+  color: white ;
+  font-size: 18;
+  background-color: black;
+  line-height: 1.5;
+}
+
+h2
+{
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 22px;  
+    text-align: center;
+    font-weight: normal;
+}
+
+#div-secondaire
+{
+    border-left: 2px solid rgba(255,255,255,0.1);
+    border-right: 2px solid rgba(255,255,255,0.1);
+    margin: 0 102px;
+}
+
+#div1
+{
+    border-bottom: 3px solid rgba(255,255,255,0.1);
+    height: 132px;
+}
+
+header
+{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav p
+{
+    color: white;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.div1-icon
+{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 4%;
+    justify-content: space-between;
+}
+
+#intro
+{
+    width: 43%;
+    text-align: center;
+    margin: 15% auto 5% auto;
+}
+
+#div1-bouton
+{
+    width: 53%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 24%;
+}
+
+.bouton1
+{
+    color: white;
+    background: linear-gradient(to right, #eddebf, #19587d);
+    opacity: 0.4;
+    padding: 3% 6%;
+    margin-left: 7%;
+    transition: opacity 2s;
+}
+.bouton:hover
+{
+    opacity: 1;
+}
+
+#flèche_down         
+{
+    display: flex;
+    justify-content: center;
+    padding: 10% 0 5% 0;
+}
+
+/* ***************************************************ACTEURS BATMAN******************************************************** */
+#voir-le-heros, #acteurs-batman p
+{
+    margin-left: 5% ;
+}
+
+#acteurs-batman p
+{
+    width:  70%;
+}
+
+#image-acteurs-batman
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* ************************************************** ENNEMI BATMAN ********************************************************* */
+#titre-ennemis-batman
+{
+    display: flex;
+}
+
+#les-adversaires, #ennemis-batman p
+{
+    margin-left: 5%;
+}
+
+#les-adversaires
+{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+#ennemis-batman p
+{
+    width: 70%;
+}
+
+#image-ennemis-batman
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+/* ************************************************LES ALLIES******************************************* */
+
+#titre-allies-batman
+{
+    margin-right: -102px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#titre-allies-batman h1
+{
+    margin-top: 20%;
+}
+
+#titre-allies-batman h1 , #allies-batman p
+{
+    margin-left: 5%;
+}
+
+#allies-batman p
+{
+    width: 70%;
+}
+
+#image-allies-batman
+{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+/* *******************************************LES JUTICIERS*************************************************** */
+
+#justice-league h1 , #justice-league p
+{
+    width: 70%;
+    margin: auto;
+} 
+
+#image-justice-league
+{
+    margin: 0 -9%;
+}
+
+/* *******************************************MULTIMEDIA****************************************************** */
+
+<#multimedia h1
+{
+    margin-left: 0 5%;
+    margin-top: 15%;
+}
+
+.image1-multimedia
+{
+    margin: 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#annonce-film
+{
+    display: flex;
+    justify-content: center;
+}
+#affiche-film
+{
+    font-family: space grotesk,sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    width: 40%;
+    background: linear-gradient(135deg, #313737, #323837 ,#283134 ,#1d2a30);
+    padding: 1%;
+    text-align: justify;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 210px;
+   
+}
+image2-multimedia
+{
+    margin: 0  -50%;
+    width: 50%;
+}
+
+/******************************************** FORMULAIRE *****************************************/
+
+
+
+#formulaire
+    {
+        background : linear-gradient(135deg , #313737 , #323837 , #283134 , #1d2a30) ;
+        margin : 0 -9% ; 
+    }
+
+#formulaire form
+    {
+        /* border : 1px solid red ; */
+        width : 45% ;
+        margin : auto ;
+        padding : 3% 0 5% 0 ;
+    }
+
+.h1_formulaire
+    {
+        text-align : center ;
+        padding-top : 5% ;
+    }
+
+h2[class = "sous_titre_form"]
+    {
+        font-family: 'Space Grotesk', sans-serif;
+        font-size : 22px ;
+        font-weight : normal ;
+        text-align: start;
+    }
+
+.div2_bouton
+    {
+        /* border : 1px solid blue ; */
+        width : 60% ;
+        margin : auto ;
+        display : flex ;
+        justify-content : space-between ;
+    }
+
+.bouton2
+    {
+        border : 1px solid rgb(19, 19, 95) ;
+        padding : 2% 5% ;
+        font-size : 12px ;
+    }
+
+.div3_bouton
+    {
+        /* border : 1px solid red ; */
+        display : flex ;
+        justify-content : center ;
+    }
+
+.div3_bouton input
+    {
+        background : linear-gradient(to right , #eddebf , #890008) ;
+        opacity : 0.4 ;
+        padding : 3% 10% ;
+        border : none ;
+    }
+
+.div3_bouton input:hover
+    {
+        opacity : 1 ;
+    }
+
+
+/******************************************** DERNIERE SECTION *****************************************/
+
+
+
+#derniere_section
+    {
+        background-color : black ;
+    }
+
+#derniere_section blockquote
+    {
+        /* border : 1px solid green ; */
+        display : flex ;
+        justify-content : center ;
+    }
+
+.citation
+    {
+        /* border : 1px solid red ; */
+        margin : 10% ;
+    }
+
+.citation p
+    {
+        text-align : center ;
+    }
+
+.auteur_citation
+    {
+        font-size : 12px ;
+        line-height: 2;
+    }
+
+.guillemet_fermant
+    {
+        /* border : 1px solid blue ; */
+        display : flex ;
+        flex-direction : column ;
+        justify-content : flex-end ;
+    }
+
+
+
+/******************************************** FOOTER *****************************************/
+
+
+
+footer small
+    {
+        display : flex ;
+        justify-content : space-evenly ;
+        align-items : center ;
+        width : 68% ;
+        margin : auto ;
+    }
+
+footer .logo_footer
+    {
+        /* border : 1px solid red ; */
+        width : 40% ;
+        margin : auto ;
+        padding-bottom : 10% ;
+        display : flex ;
+        justify-content : space-evenly ;
+        align-items : center ; 
+    }
+
+
+
+/******************************************** ANIMATIONS *****************************************/
+
+
+.logo_footer .logo:hover
+    {
+        color : #FFFF00 ;
+    }
+
+@keyframes fadein
+    {
+        0%{
+            opacity : 0 ;
+        }
+
+        100%{
+            opacity : 1 ;
+        }
+    }
